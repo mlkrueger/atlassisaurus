@@ -1,0 +1,13 @@
+[package]
+name = "atlassisaurus"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matthew Krueger <matthew.l.krueger@gmail.com>"]
+description = "A Rust API to interact with Atlassian Cloud products."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = "0.11.11"
+serde_json = "1.0"
